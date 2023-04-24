@@ -12,11 +12,11 @@
 """
                             Algorithm
 
-1. Define the `ASCIIConversion` function that takes a single parameter `str`.
+1. Define the `ASCIIConversion` function that takes a single parameter `strParam`.
 
 2. Initialize an empty string called `result` to store the output.
 
-3. For each character `char` in the input string `str`, do the following:
+3. For each character `char` in the input string `strParam`, do the following:
 
    a. Check if `char` is not a space by comparing it to the string literal " ".
    b. If `char` is not a space, use the `ord` function to get its ASCII code as an integer.
