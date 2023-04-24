@@ -11,6 +11,8 @@ Problem Statement
   Input 2: "i ran there"                                       
   Output 2: I Ran There  
 """
+
+
 """
                             Algorithm
 
@@ -48,6 +50,6 @@ print(result3)  # Output should be "123 Abc !@#"
 result4 = LetterCapitalize("   hello   world   ")
 print(result4)  # Output should be "Hello World"
 
-# Test case 5: input with a single letter
+# Test case 5: input with a coderbyte example letter
 result5 = LetterCapitalize("i ran there")
 print(result5)  # Output should be "I Ran There"
