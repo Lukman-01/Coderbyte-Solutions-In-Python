@@ -17,21 +17,21 @@ Problem Statement
   Input 2: ["abcdef", "defabc"]                                
   Output 2: 6            
 """
-"""
-                        Algorithm for HDistance(strArr):
-1. Initialize a variable called count to zero.
-2. Iterate over the characters in the first string of the array.
-3. For each character, check if it is not equal to the corresponding character in the second string.
-4. If the characters are different, increment the count.
-5. Return the count.
 
-"""
+# Algorithm
+# 1. Initialize a variable called count to zero.
+# 2. Iterate over the characters in the first string of the array.
+# 3. For each character, check if it is not equal to the corresponding character in the second string.
+# 4. If the characters are different, increment the count.
+# 5. Return the count.
+
+
 def HDistance(strArr):
-    count = 0
-    for i in range(len(strArr[0])):
-        if strArr[0][i] != strArr[1][i]:
-            count += 1
-    return count
+  count = 0
+  for i in range(len(strArr[0])):
+    if strArr[0][i] != strArr[1][i]:
+      count += 1
+  return count
  
 
 print(HDistance(["abcd", "abce"])) # Output: 1

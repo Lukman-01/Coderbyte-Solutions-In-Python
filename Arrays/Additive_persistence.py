@@ -16,18 +16,14 @@
   Output 2: 2       
 """
 
-
-"""
-Algorithm:
-1. Define a variable 'count' and initialize it to zero.
-2. Check if the given number 'num' is a single digit or not. If yes, return count.
-3. Otherwise, convert the number 'num' into a string and loop through its digits.
-4. Add the digits and store the sum in a variable 'total'.
-5. Increment the count by 1.
-6. Recursively call the AdditivePersistence function with the 'total' as the new input.
-7. Return the result obtained from the recursive call.
-"""
-
+# Algorithm:
+# 1. Define a variable 'count' and initialize it to zero.
+# 2. Check if the given number 'num' is a single digit or not. If yes, return count.
+# 3. Otherwise, convert the number 'num' into a string and loop through its digits.
+# 4. Add the digits and store the sum in a variable 'total'.
+# 5. Increment the count by 1.
+# 6. Recursively call the AdditivePersistence function with the 'total' as the new input.
+# 7. Return the result obtained from the recursive call.
 
 def AdditivePersistence(num):
     count = 0
@@ -38,7 +34,6 @@ def AdditivePersistence(num):
         num = total
         count += 1
     return count
-
 
 
 print(AdditivePersistence(4))   # Output: 0

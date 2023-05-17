@@ -13,40 +13,34 @@ Problem Statement
   Input 2: hooplah                                             
   Output 2: ahhloop           
 """
-"""
-                              Algorithm:
 
-1. Convert the input string to a list of characters.
-2. Sort the list in alphabetical order.
-3. Join the characters back together into a string.
-4. Return the sorted string.
+# Algorithm:
 
-"""
+# 1. Convert the input string to a list of characters.
+# 2. Sort the list in alphabetical order.
+# 3. Join the characters back together into a string.
+# 4. Return the sorted string.
+
+
 def AlphabetSoup(strParam):
-    # Convert the input string to a list of characters
-    chars = list(strParam)
+  # Convert the input string to a list of characters
+  chars = list(strParam)
+  # Sort the list in alphabetical order
+  chars.sort()
+  # Join the characters back together into a string
+  sorted_str = ''.join(chars)
+  # Return the sorted string
+  return sorted_str
 
-    # Sort the list in alphabetical order
-    chars.sort()
 
-    # Join the characters back together into a string
-    sorted_str = ''.join(chars)
-
-    # Return the sorted string
-    return sorted_str
-
-# Test case 1: basic input
 result1 = AlphabetSoup("coderbyte")
 print(result1)  # Output should be "bcdeeorty"
 
-# Test case 2: input with repeated letters
 result2 = AlphabetSoup("hooplah")
 print(result2)  # Output should be "ahhloop"
 
-# Test case 3: input with upper and lowercase letters
 result3 = AlphabetSoup("HelloWorld")
 print(result3)  # Output should be "HWdellloor"
 
-# Test case 4: input with spaces and special characters
 result4 = AlphabetSoup("string!@$")
 print(result4)  # Output should be "!$@ginrst"

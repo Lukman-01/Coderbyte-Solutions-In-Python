@@ -21,18 +21,17 @@ Problem Statement
   Output 2: 46          
 """
 
-"""                        Algorithm
 
-Algorithm:
-1. Initialize a dictionary that maps Roman numerals to their decimal values
-2. Initialize a variable called "result" to 0
-3. Iterate through the string of Roman numerals from left to right:
-     a. Get the decimal value of the current numeral using the dictionary
-     b. If the next numeral (if it exists) has a higher value than the current numeral, subtract the current value from the result
-     c. Otherwise, add the current value to the result
-4. Return the result
+# Algorithm:
+# 1. Initialize a dictionary that maps Roman numerals to their decimal values
+# 2. Initialize a variable called "result" to 0
+# 3. Iterate through the string of Roman numerals from left to right:
+#      a. Get the decimal value of the current numeral using the dictionary
+#      b. If the next numeral (if it exists) has a higher value than the current numeral, subtract the current value from the result
+#      c. Otherwise, add the current value to the result
+# 4. Return the result
 
-"""
+
 def BasicRomanNumerals(str):
     roman_to_decimal = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
     result = 0

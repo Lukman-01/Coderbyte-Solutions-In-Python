@@ -17,16 +17,17 @@ Problem Statement
   Output 2: false          
 """
 
-"""
-                                        Algorithm
-To solve the `AlphabetSearching` problem, we need to check whether every letter 
-of the English alphabet exists in the input string or not. We can create a set 
-of all the letters of the English alphabet and iterate over them to check if each 
-of them exists in the input string or not. If any letter is not found, we can 
-return `false`. If all letters are found, we can return `true`. Here's the Python 
-code that implements this approach:
 
-"""
+# Algorithm
+
+# To solve the `AlphabetSearching` problem, we need to check whether every letter 
+# of the English alphabet exists in the input string or not. We can create a set 
+# of all the letters of the English alphabet and iterate over them to check if each 
+# of them exists in the input string or not. If any letter is not found, we can 
+# return `false`. If all letters are found, we can return `true`. Here's the Python 
+# code that implements this approach:
+
+
 def AlphabetSearching(str):
     alphabet = set('abcdefghijklmnopqrstuvwxyz')
     for char in alphabet:

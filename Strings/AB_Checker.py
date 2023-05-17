@@ -15,23 +15,13 @@ Problem Statement
   Output 2: true              
  """
 
-""" 
-                                Algorithm
-To solve the problem, you can follow these steps:
 
-1. Convert the input string to lowercase to make it case-insensitive.
-
-2. Iterate through each character in the string and check if the current character is 'a'.
-
-3. If the current character is 'a', check if there are exactly three characters after it, followed by the character 'b'.
-
-4. If step 3 is true, return 'true' since the condition is met.
-
-5. If there are no more characters to check and the condition is not met, return 'false'.
-
-"""
-#Here's the implementation in Python:
-
+# Algorithm
+# 1. Convert the input string to lowercase to make it case-insensitive.
+# 2. Iterate through each character in the string and check if the current character is 'a'.
+# 3. If the current character is 'a', check if there are exactly three characters after it, followed by the character 'b'.
+# 4. If step 3 is true, return 'true' since the condition is met.
+# 5. If there are no more characters to check and the condition is not met, return 'false'.
 
 def ABCheck(str):
     str = str.lower()

@@ -21,14 +21,13 @@ Problem Statement
   Output 2: -1                         
 """
 
-"""
-Algorithm:
-1. Find the difference between the second and the first element of the array
-2. Check if the difference is the same between each element in the array. If it is, then it follows an arithmetic pattern.
-3. If the difference is not the same between each element, find the ratio between the second and the first element of the array.
-4. Check if the ratio is the same between each element in the array. If it is, then it follows a geometric pattern.
-5. If both steps 2 and 4 fail, then return -1.
-"""
+# Algorithm:
+# 1. Find the difference between the second and the first element of the array
+# 2. Check if the difference is the same between each element in the array. If it is, then it follows an arithmetic pattern.
+# 3. If the difference is not the same between each element, find the ratio between the second and the first element of the array.
+# 4. Check if the ratio is the same between each element in the array. If it is, then it follows a geometric pattern.
+# 5. If both steps 2 and 4 fail, then return -1.
+
  
 def ArithGeo(arr):
     diff = arr[1] - arr[0]
