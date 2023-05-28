@@ -13,20 +13,16 @@ Problem Statement
 """
 
 
-"""
-                            Algorithm
 
-1. Split the input string `strParam` into a list of words using the `split()` function.
+# Algorithm
 
-2. Loop through each word in the list of words.
+# 1. Split the input string `strParam` into a list of words using the `split()` function.
+# 2. Loop through each word in the list of words.
+# 3. Capitalize the first letter of each word using the `capitalize()` function.
+# 4. Join the list of words back together into a single string, separated by spaces.
+# 5. Return the resulting string.
 
-3. Capitalize the first letter of each word using the `capitalize()` function.
 
-4. Join the list of words back together into a single string, separated by spaces.
-
-5. Return the resulting string.
-
-"""
 def LetterCapitalize(strParam):
     words = strParam.split()
     for i in range(len(words)):

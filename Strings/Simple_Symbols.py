@@ -16,14 +16,14 @@ Problem Statement
   Input 2: "f++d+"                                             
   Output 2: false          
 """
-"""
-Algorithm:
 
-1. Iterate over each character, `c`, in the input string, `str`.
-2. Check if `c` is a letter (using the `isalpha()` function) and if it has a preceding `+` symbol and a succeeding `+` symbol.
-3. If any letter is found without the correct surrounding symbols, return `false`.
-4. After the loop, if all letters have the correct surrounding symbols, return `true`.
-"""
+# Algorithm:
+
+# 1. Iterate over each character, `c`, in the input string, `str`.
+# 2. Check if `c` is a letter (using the `isalpha()` function) and if it has a preceding `+` symbol and a succeeding `+` symbol.
+# 3. If any letter is found without the correct surrounding symbols, return `false`.
+# 4. After the loop, if all letters have the correct surrounding symbols, return `true`.
+
  
 
 def SimpleSymbols(strParam):

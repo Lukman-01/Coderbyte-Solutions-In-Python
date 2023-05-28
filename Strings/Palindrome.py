@@ -14,17 +14,14 @@ Problem Statement
   Input 2: eye                                                 
   Output 2: true      
 """
-"""
-                                Agorithm 
-1. Remove all non-alphabetic characters and convert the string to lowercase.
 
-2. Reverse the string.
+# Agorithm 
+# 1. Remove all non-alphabetic characters and convert the string to lowercase.
+# 2. Reverse the string.
+# 3. Compare the original string with the reversed string.
+# 4. If they are the same, return "true". Otherwise, return "false".
 
-3. Compare the original string with the reversed string.
 
-4. If they are the same, return "true". Otherwise, return "false".
-
-"""
 def Palindrome(strParam):
     # Remove non-alphabetic characters and convert to lowercase
     strParam = "".join(ch.lower() for ch in strParam if ch.isalpha())

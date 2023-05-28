@@ -18,18 +18,19 @@ Problem Statement
   Output 2: 1.0000       
 """
 
-"""
-                                            Algorithm:
 
-1. Divide `num1` by `num2` to get the result.
-2. Format the result using `format()` function with `,` separator and `:.4f` to get 4 significant digits after the decimal place.
-3. Return the formatted result.
-"""
+# Algorithm:
+
+# 1. Divide `num1` by `num2` to get the result.
+# 2. Format the result using `format()` function with `,` separator and `:.4f` to get 4 significant digits after the decimal place.
+# 3. Return the formatted result.
+
+
                             
 def FormattedDivision(num1, num2):
-    result = num1 / num2
-    formatted_result = '{:,.4f}'.format(result)
-    return formatted_result
+  result = num1 / num2
+  formatted_result = '{:,.4f}'.format(result)
+  return formatted_result
 
 # Test case 1: basic input
 result1 = FormattedDivision(123456789, 10000)

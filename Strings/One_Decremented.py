@@ -14,14 +14,14 @@ Problem Statement
   Input 2: "9876541110"                                        
   Output 2: 6           
 """
-"""
-                Algorithm
-1. Initialize a counter variable to 0.
-2. Loop through each digit in the string, starting from the second digit.
-3. Compare the current digit with the previous digit.
-4. If the current digit is exactly one less than the previous digit, increment the counter.
-5. After looping through the entire string, return the counter.
-"""
+
+# Algorithm
+# 1. Initialize a counter variable to 0.
+# 2. Loop through each digit in the string, starting from the second digit.
+# 3. Compare the current digit with the previous digit.
+# 4. If the current digit is exactly one less than the previous digit, increment the counter.
+# 5. After looping through the entire string, return the counter.
+
 
 
 def OneDecremented(str):

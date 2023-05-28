@@ -14,17 +14,17 @@ Problem Statement
   Input 2: x                                                   
   Output 2: false   
 """
-"""
-                                            Algorithm
-1. Define a function called ExOh that takes a string argument called "str"
-2. Initialize two variables, "x_count" and "o_count", to 0
-3. Loop through each character in "str"
-4. If the current character is "x", increment "x_count" by 1
-5. If the current character is "o", increment "o_count" by 1
-6. After the loop, compare "x_count" and "o_count"
-7. If they are equal, return the string "true"
-8. If they are not equal, return the string "false"
-"""
+
+# Algorithm
+# 1. Define a function called ExOh that takes a string argument called "str"
+# 2. Initialize two variables, "x_count" and "o_count", to 0
+# 3. Loop through each character in "str"
+# 4. If the current character is "x", increment "x_count" by 1
+# 5. If the current character is "o", increment "o_count" by 1
+# 6. After the loop, compare "x_count" and "o_count"
+# 7. If they are equal, return the string "true"
+# 8. If they are not equal, return the string "false"
+
  
 def ExOh(str):
     count_x = 0

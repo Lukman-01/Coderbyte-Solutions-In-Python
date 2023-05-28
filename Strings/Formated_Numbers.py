@@ -17,15 +17,14 @@ Problem Statement
   Input 2: ["2,567.00.2"]                                      
   Output 2: false          
 """
-"""
-Algorithm:
-1. Remove all commas from the string.
-2. Count the number of decimal points in the string.
-3. If there are more than one decimal points or more than one '-' sign, return false.
-4. If there is one decimal point, then split the string at that decimal point. Check that the left side is only digits, and the right side is only digits and has 2 or fewer characters.
-5. If there is no decimal point, check that the entire string is only digits.
 
-"""
+# Algorithm:
+# 1. Remove all commas from the string.
+# 2. Count the number of decimal points in the string.
+# 3. If there are more than one decimal points or more than one '-' sign, return false.
+# 4. If there is one decimal point, then split the string at that decimal point. Check that the left side is only digits, and the right side is only digits and has 2 or fewer characters.
+# 5. If there is no decimal point, check that the entire string is only digits.
+
 
 def FormattedNumber(strArr):
     # Get the input string from strArr
