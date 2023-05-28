@@ -27,20 +27,19 @@ Problem Statement
   Input 2: "<div>abc</div><p><em><i>test test test</b></em></p>"
   Output 2: i              
 """
-"""
-Here's one possible algorithm to solve this problem:
 
-1. Create an empty stack to keep track of opening tags.
-2. Create a variable `i` and initialize it to 0.
-3. While `i` is less than the length of `str`, do the following:
-   a. If the current character is an opening tag, push it onto the stack.
-   b. If the current character is a closing tag, check if it matches the most recent opening tag on the stack. 
-   If it does not match, return the name of the opening tag as the answer. If it matches, 
-   pop the opening tag off the stack.
-   c. Increment `i`.
-4. If the stack is empty, return `true`, otherwise return the name of the topmost opening tag on the stack.
+# Algorithm
 
-"""
+# 1. Create an empty stack to keep track of opening tags.
+# 2. Create a variable `i` and initialize it to 0.
+# 3. While `i` is less than the length of `str`, do the following:
+#    a. If the current character is an opening tag, push it onto the stack.
+#    b. If the current character is a closing tag, check if it matches the most recent opening tag on the stack. 
+#    If it does not match, return the name of the opening tag as the answer. If it matches, 
+#    pop the opening tag off the stack.
+#    c. Increment `i`.
+# 4. If the stack is empty, return `true`, otherwise return the name of the topmost opening tag on the stack.
+
 
 
 def HTMLElements(str):
