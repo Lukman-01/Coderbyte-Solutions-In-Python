@@ -23,15 +23,11 @@ Input: ["(1,2)", "(3,2)", "(2,12)", "(5,2)"]
 Output: false
 """
 
-
-"""
-Algorithm:
-1. Create a dictionary to store the parent node and its children.
-2. For each pair (i1, i2) in strArr, check if i2 is already a parent node or not. If it's not, then create a new key-value pair in the dictionary with i2 as the key and i1 as the value.
-3. If i2 is already a parent node, then check if it already has 2 children. If it doesn't have 2 children, add i1 as a child. If it already has 2 children, return false because it's not a proper binary tree.
-4. After iterating through all pairs, check if there is only one root node. If there is, return true. If there isn't, return false because it's not a proper binary tree.
-"""
-
+# Algorithm:
+# 1. Create a dictionary to store the parent node and its children.
+# 2. For each pair (i1, i2) in strArr, check if i2 is already a parent node or not. If it's not, then create a new key-value pair in the dictionary with i2 as the key and i1 as the value.
+# 3. If i2 is already a parent node, then check if it already has 2 children. If it doesn't have 2 children, add i1 as a child. If it already has 2 children, return false because it's not a proper binary tree.
+# 4. After iterating through all pairs, check if there is only one root node. If there is, return true. If there isn't, return false because it's not a proper binary tree.
 
 
 def TreeConstructor(strArr):

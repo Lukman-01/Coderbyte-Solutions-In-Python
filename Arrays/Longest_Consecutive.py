@@ -23,21 +23,19 @@ Problem Statement
   Input 2: [5, 6, 1, 2, 8, 9, 7]                               
   Output 2: 5   
 """
-"""
-Type of problem: Array manipulation
 
-Algorithm:
+# Algorithm:
 
-1. Create an empty set to store the numbers.
-2. Add all the numbers in the array to the set.
-3. Initialize a variable `longest_sequence` to 0.
-4. For each number in the array, check if it is the start of a new 
-    consecutive sequence by verifying if `number-1` is in the set.
-5. If the number is the start of a new consecutive sequence, 
-    keep incrementing a counter until the end of the sequence is reached.
-6. Update the `longest_sequence` variable if the counter exceeds its value.
-7. Return the `longest_sequence` variable.
-"""
+# 1. Create an empty set to store the numbers.
+# 2. Add all the numbers in the array to the set.
+# 3. Initialize a variable `longest_sequence` to 0.
+# 4. For each number in the array, check if it is the start of a new 
+#     consecutive sequence by verifying if `number-1` is in the set.
+# 5. If the number is the start of a new consecutive sequence, 
+#     keep incrementing a counter until the end of the sequence is reached.
+# 6. Update the `longest_sequence` variable if the counter exceeds its value.
+# 7. Return the `longest_sequence` variable.
+
 
 
 def longest_consecutive(arr):

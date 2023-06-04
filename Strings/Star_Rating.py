@@ -19,20 +19,20 @@ Problem Statement                                            *
   Output 2: full full full full half     
 """
 
-"""
-Algorithm:
-1. Convert the input string to a floating-point number.
-2. Multiply the number by 2 and round it to the nearest integer. This will give us a value between 0 and 10, representing the rating in tenths.
-3. Divide the rounded value by 2 to get the number of full stars.
-4. Subtract the number of full stars from 5 to get the number of empty stars.
-5. If the rounded value is odd, add a half star.
-6. Create a list to store the image names.
-7. Append "full" to the list the number of times equal to the number of full stars.
-8. Append "half" to the list if the rounded value is odd.
-9. Append "empty" to the list the number of times equal to the number of empty stars.
-10. Join the elements of the list into a string separated by spaces.
-11. Return the resulting string.
-"""
+
+# Algorithm:
+# 1. Convert the input string to a floating-point number.
+# 2. Multiply the number by 2 and round it to the nearest integer. This will give us a value between 0 and 10, representing the rating in tenths.
+# 3. Divide the rounded value by 2 to get the number of full stars.
+# 4. Subtract the number of full stars from 5 to get the number of empty stars.
+# 5. If the rounded value is odd, add a half star.
+# 6. Create a list to store the image names.
+# 7. Append "full" to the list the number of times equal to the number of full stars.
+# 8. Append "half" to the list if the rounded value is odd.
+# 9. Append "empty" to the list the number of times equal to the number of empty stars.
+# 10. Join the elements of the list into a string separated by spaces.
+# 11. Return the resulting string.
+
 
 def StarRating(str):
     rating = float(str)

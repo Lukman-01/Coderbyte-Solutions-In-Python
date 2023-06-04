@@ -20,20 +20,17 @@ Problem Statement
   Output 2: 4,1,2,3            
 """
 
-"""
-Algorithm:
-1. Create an empty list to store the result.
-2. Create an empty list to act as a temporary stack.
-3. Iterate through the given list:
-     a. If the current element is an integer, append it to the temporary stack.
-     b. If the current element is 'E', find the minimum element in the 
-        temporary stack and append it to the result list. Then remove 
-        that element from the temporary stack.
-4. Return the result list as a string separated by commas.
+# Algorithm:
+# 1. Create an empty list to store the result.
+# 2. Create an empty list to act as a temporary stack.
+# 3. Iterate through the given list:
+#      a. If the current element is an integer, append it to the temporary stack.
+#      b. If the current element is 'E', find the minimum element in the 
+#         temporary stack and append it to the result list. Then remove 
+#         that element from the temporary stack.
+# 4. Return the result list as a string separated by commas.
 
-Data Structure Used: Stack
-"""
-
+# Data Structure Used: Stack
 
 
 def OffLineMinimum(strArr):

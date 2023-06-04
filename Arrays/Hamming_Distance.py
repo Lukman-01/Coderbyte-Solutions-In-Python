@@ -18,24 +18,14 @@ Problem Statement
   Output 2: 8                     
 """
 
-"""
-The problem requires us to find the Hamming distance between two strings 
-of equal length. The Hamming distance is the number of positions where 
-the corresponding characters are different. 
+#  Algorithm:
 
-One approach to solve this problem is to iterate through the two strings 
-and compare the characters at each position. If the characters at the 
-current position are different, we increment a counter. Finally, 
-we return the counter as the Hamming distance.
+# 1. Convert the two strings in the input array into character arrays.
+# 2. Initialize a counter variable to 0.
+# 3. Iterate through the character arrays:
+#    a. If the character at the current position in the first array is different from the character at the corresponding position in the second array, increment the counter.
+# 4. Return the counter as the Hamming distance.
 
-Here is the algorithm:
-
-1. Convert the two strings in the input array into character arrays.
-2. Initialize a counter variable to 0.
-3. Iterate through the character arrays:
-   a. If the character at the current position in the first array is different from the character at the corresponding position in the second array, increment the counter.
-4. Return the counter as the Hamming distance.
-"""
 
 
 def HammingDistance(strArr):
